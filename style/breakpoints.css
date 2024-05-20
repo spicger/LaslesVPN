@@ -1,0 +1,153 @@
+@media (min-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .header-btn img {
+        display: none !important;
+    }
+
+    .header-a img {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1205px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .header-list {
+        position: fixed;
+        flex-direction: column;
+        padding: 30px 20px;
+        row-gap: 20px;
+        top: 0;
+        height: 100%;
+        background-color: #203253;
+        right: -100%;
+    }
+
+    .header-link {
+        color: white !important;
+    }
+
+    .menu-toggle:focus+.header-list {
+        right: 0;
+    }
+
+    .easy-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .easy-title,
+    .easy-text {
+        text-align: center;
+    }
+
+    .easy-btn-wrap {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .easy-right img {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .header-btn-sapn {
+        display: none !important;
+    }
+
+    .header-a-span {
+        display: none !important;
+    }
+
+    .header-a img {
+        width: 15px;
+        height: 15px;
+        align-items: center;
+        display: flex;
+    }
+
+    .header-btn img {
+        width: 15px;
+        height: 15px;
+        align-items: center;
+        display: flex;
+    }
+
+    .header-btn {
+        padding: 10px 15px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+
+    .site-logo {
+        max-width: 140px !important;
+        width: 100% !important;
+    }
+    .header-btn-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .easy-title {
+        font-size: 30px !important;
+    }
+
+    .easy-span {
+        font-size: 35px !important;
+    }
+}
+
+
+

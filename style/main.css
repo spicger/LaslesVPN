@@ -1,0 +1,167 @@
+/* SITE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --site-font: 'Rubik', sans-serif;
+    --text-color: #4F5665;
+    --title-color: #0B132A;
+    --button-color: #F53838;
+}
+
+/* GENERAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: hsl(105, 4%, 80%);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: .5rem;
+}
+
+
+body {
+    font-family: var(--site-font);
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1210px;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    align-items: center;
+}
+
+
+.header-list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.header-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    color: var(--text-color);
+}
+
+
+.header-a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+.header-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    text-align: left;
+    color: var(--button-color);
+    padding: 13px 45px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+.menu-toggle {
+    display: flex;
+    order: 1;
+}
+
+/* EASY */
+.easy {
+    margin-top: 130px;
+}
+
+.easy-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.easy-title {
+    color: var(--title-color);
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;    
+}
+
+.easy-span {
+    color: var(--title-color);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;    
+}
+
+.easy-text {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 20px 0 50px 0;
+     
+}
+
+.easy-text-span {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;    
+}
+
+.easy-btn {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;  
+    background-color: var(--button-color);
+    border: 0;
+    padding: 17.5px 75.5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 300px 0px #F5383859;   
+}
+
