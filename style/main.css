@@ -123,7 +123,7 @@ button {
     font-size: 50px;
     font-weight: 500;
     line-height: 70px;
-    text-align: left;    
+    text-align: left;
 }
 
 .easy-span {
@@ -131,7 +131,7 @@ button {
     font-size: 50px;
     font-weight: 700;
     line-height: 70px;
-    text-align: left;    
+    text-align: left;
 }
 
 .easy-text {
@@ -141,7 +141,7 @@ button {
     line-height: 30px;
     text-align: left;
     margin: 20px 0 50px 0;
-     
+
 }
 
 .easy-text-span {
@@ -149,7 +149,7 @@ button {
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
-    text-align: left;    
+    text-align: left;
 }
 
 .easy-btn {
@@ -157,11 +157,133 @@ button {
     font-size: 16px;
     font-weight: 700;
     line-height: 25px;
-    text-align: left;  
+    text-align: left;
     background-color: var(--button-color);
     border: 0;
     padding: 17.5px 75.5px;
     border-radius: 10px;
-    box-shadow: 0px 0px 300px 0px #F5383859;   
+    box-shadow: 0px 52px 300px 17px red;
 }
 
+
+/* LOCATION */
+
+.location {
+    margin-top: 105px;
+}
+
+.background {
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    padding: 72px 90px;
+    border-radius: 10px;
+}
+
+.location-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.location-boxxer {
+    display: flex;
+    align-items: center;
+    margin-right: 130px;
+
+}
+
+.location-boxxer:nth-child(3) {
+    margin-right: 0;
+}
+
+.line-1 {
+    margin-left: 130px;
+}
+
+.location-box:nth-last-child() {
+    margin-right: 0;
+}
+
+.location-img {
+    background: #FFECEC;
+    border-radius: 70px;
+    padding: 15.5px 15.5px;
+}
+
+.location-box {
+    row-gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-img {
+    margin-right: 36px;
+}
+
+.location-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: var(--title-color);
+}
+
+.location-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: var(--text-color);
+}
+
+/* PROVIDE */
+
+.provide {
+    margin-top: 100px;
+}
+
+.provide-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.provide-right {
+}
+
+.provide-title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: var(--title-color);
+    max-width: 383.41px;
+    width: 100%;
+}
+
+.provide-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: var(--text-color);
+    max-width: 427.88px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.provide-text-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.provide-second-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
