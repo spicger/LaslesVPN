@@ -174,14 +174,14 @@ button {
 
 .background {
     background-color: #FFFFFF;
-    border: 1px solid black;
-    padding: 72px 90px;
+    padding: 72px 50px;
     border-radius: 10px;
+    box-shadow: #0D1025 0px 5px 34px;
 }
 
 .location-wrap {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .location-boxxer {
@@ -247,8 +247,6 @@ button {
     align-items: center;
 }
 
-.provide-right {
-}
 
 .provide-title {
     font-size: 35px;
@@ -286,4 +284,117 @@ button {
     display: flex;
     align-items: center;
     column-gap: 3px;
+}
+
+/* PLAN */
+
+.plan {
+    margin-top: 150px;
+}
+
+.plan-title-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.plan-mian-title {
+    color: var(--title-color);
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+.plan-main-text {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.plan-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-wrap {
+    height: 100%;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 80px 69.87px 50px 69.87px ;
+}
+
+.plan-wrap:hover {
+    border: 2px solid #F53838;
+}
+
+.plan-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.plan-title {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.plan-text-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 130px;
+
+}
+.plan-text {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    column-gap: 20.17px;
+}
+
+.plan-title2 {
+    color: var(--title-color);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.plan-btn-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.plan-btn {
+    color: #F53838;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    text-align: left;
+    padding: 13px 62.94px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: .5s;
+    text-align: center;
+}
+
+.plan-btn:hover {
+    background: #F53838;
+    color: #FFFFFF;
+
 }
