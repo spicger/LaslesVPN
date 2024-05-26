@@ -57,6 +57,15 @@
     .location-boxxer {
         margin-right: 45px !important;
     }
+    .plan-wrapper {
+        overflow-x: scroll;
+        column-gap: 20px !important;
+    }
+
+    .plan-wrapper::-webkit-scrollbar {
+        display: none !important;
+
+    }
 }
 
 
